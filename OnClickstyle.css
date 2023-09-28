@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    display: block;
+    width: 20rem;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+button{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+}

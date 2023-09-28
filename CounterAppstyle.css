@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: darkgray;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+}
+.container{
+    margin: 0px auto;
+    margin-top: 200px;
+    padding: 60px;
+    border: 2px solid black;
+    height: 300px;
+    width: 400px;
+}
+.mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+#resetbtn{
+    margin-left: 110px;
+    margin-top: 20px;
+}
+button{
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+span{
+    font-size: larger;
+    font-weight: bolder;
+}
